@@ -13,8 +13,17 @@ avi.first_name = "Avi"
 avi.last_name = "Flombaum"
 
 
-some_knowledge = avi.teach 
+some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+
+
+jim = User.new("jim", "bob")
+# jim.learn(some_knowledge)
+# /Users/Joseph/Bootcamp/ruby-inheritance-lab-nyc-web-career-010719/lib/user.rb:5:in `initialize': wrong number of arguments (given 2, expected 0) (ArgumentError)
+# 	from bin/time_for_school:23:in `new'
+# 	from bin/time_for_school:23:in `<main>'
+
+# steve.learn(some_knowledge)
