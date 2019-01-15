@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe "User" do 
+describe "User" do
   let!(:user) { User.new }
-  it "has a first name" do 
+  it "has a first name" do
     user.first_name = "Tracy"
     expect(user.first_name).to eq("Tracy")
   end
